@@ -39,11 +39,11 @@ binary_search(l , r): // 寻找左区间的右端点
 **为什么是整数的时候会有很多边界问题呢？**
 因为整数范围缩小到 2 时候，可能进入死循环。
 
-- [例题 1](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
-- [例题 2](https://leetcode-cn.com/problems/search-a-2d-matrix/)
-- [例题 3](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array)
-- [例题 4](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
-- [例题 5](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)
+- [leetcode: 例题 1 - 34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+- [leetcode: 例题 2 - 74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)
+- [leetcode: 例题 3 - 153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array)
+- [leetcode: 例题 4 - 81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
+- [leetcode: 例题 5 - 154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 
 
 ## 浮点数二分
@@ -60,6 +60,8 @@ binary_search(l , r): // 寻找结果
 ```
 
 常见的例子： 二分法求 sqrt(x)
+
+- [acwing: 790. 数的三次方根](https://www.acwing.com/problem/content/792/)
 
 ## 二分法的经典应用
 1. 对结果进行二分
