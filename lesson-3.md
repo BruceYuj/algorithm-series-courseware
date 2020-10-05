@@ -90,7 +90,11 @@ def merge(i, le, j):
 归并排序的应用：求逆序对
 [题目链接](https://www.acwing.com/problem/content/description/790/)
 
+## 本节课例题
+- [acwing: 787. 归并排序](https://www.acwing.com/problem/content/789/)
+- [acwing: 788. 逆序对的数量](https://www.acwing.com/problem/content/description/790/)
+- [leetcode: 21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
 https://leetcode-cn.com/problems/merge-two-sorted-lists/
+- [leetcode: 23. 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
 
-https://leetcode-cn.com/problems/merge-k-sorted-lists/
 

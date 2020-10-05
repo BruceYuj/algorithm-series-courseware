@@ -58,3 +58,7 @@ def quick_sort(l , r):
     quick_sort(l, j)
     quick_sort(j+1, r)
 ```
+
+## 本节课例题
+- [acwing: 785. 快速排序](https://www.acwing.com/problem/content/description/787/)
+- [acwing: 786. 第k个数](https://www.acwing.com/problem/content/788/)
