@@ -45,7 +45,8 @@ binary_search(l , r): // 寻找左区间的右端点
 - [leetcode: 例题 4 - 81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
 - [leetcode: 例题 5 - 154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 
-
+- [leetcode: 162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/)
+- [leetcode: 275. H 指数 II](https://leetcode-cn.com/problems/h-index-ii/)
 ## 浮点数二分
 
 ```
@@ -63,11 +64,51 @@ binary_search(l , r): // 寻找结果
 
 - [acwing: 790. 数的三次方根](https://www.acwing.com/problem/content/792/)
 
+- [acwing: 696. 哈默队长(Google Kickstart2013 Practice Round Problem B)](https://www.acwing.com/problem/content/description/698/)
 ## 二分法的经典应用
 1. 对结果进行二分
+- [leetcode: 1011. 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)
+- [leetcode: 1482. 制作 m 束花所需的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets/)
+- [leetcode: 778. 水位上升的泳池中游泳](https://leetcode-cn.com/problems/swim-in-rising-water/)
+- [leetcode: 1292. 元素和小于等于阈值的正方形的最大边长](https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
+- [leetcode: 875. 爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/)
+- [leetcode: 287. 寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/)
+- [acwing(头条 2019 笔试):680. 剪绳子](https://www.acwing.com/problem/content/682/)
+    - [acwing(第八届蓝桥杯): 1227. 分巧克力](https://www.acwing.com/problem/content/description/1229/)
+- [acwing(头条 2019 笔试): 730. 机器人跳跃问题](https://www.acwing.com/problem/content/description/732/): 二分或者贪心
+- [acwing: 1028. 复制书稿](https://www.acwing.com/problem/content/description/1030/)
 
-2. min(max()) / max(min())
+1. min(max()) / max(min())
+- [leetcode: 410. 分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/)
+- [acwing: 519. 跳石头](https://www.acwing.com/problem/content/521/)
+- [leetcode plus: 774. minimize-max-distance-to-gas-station](https://leetcode-cn.com/problems/minimize-max-distance-to-gas-station/)
+- [acwing: 2436. 串分割](https://www.acwing.com/problem/content/description/2438/)
 
-3. 求最大平均值 / 最小平均值
+1. 求最大平均值 / 最小平均值
+- [acwing: 02. 最佳牛围栏](https://www.acwing.com/problem/content/description/104/)
+- [acwing: 2430. 送礼物](https://www.acwing.com/problem/content/description/2432/)
+  
+https://www.acwing.com/community/content/537/
 
-4. 求某种特殊的第 k 大
+进阶难度：
+- [acwing: 361. 观光奶牛(图+二分)](https://www.acwing.com/problem/content/description/363/)
+
+1. 求某种特殊的第 k 大 / 小
+- [leetcode: 668. 乘法表中第k小的数](https://leetcode-cn.com/problems/kth-smallest-number-in-multiplication-table/)
+- [leetcode: 878. 第 N 个神奇数字](https://leetcode-cn.com/problems/nth-magical-number/)
+- [leetcode: 786. 第 K 个最小的素数分数](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction/)
+- [acwing: 1236. 递增三元组](https://www.acwing.com/problem/content/description/1238/)
+
+## 其他需要先分析后二分的题目
+1. [leetcode: 793. 阶乘函数后K个零](https://leetcode-cn.com/problems/preimage-size-of-factorial-zeroes-function/)
+- [leetcode: 719. 找出第 k 小的距离对](https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance/)
+- [leetcode: 483. 最小好进制](https://leetcode-cn.com/problems/smallest-good-base/) 
+    - google kickstart 2016 round E problem B [628. 美丽的数](https://www.acwing.com/problem/content/description/630/)
+- [acwing: 120. 防线](https://www.acwing.com/problem/content/description/122/)
+
+二分+dp：
+- [acwing: 472. 跳房子](https://www.acwing.com/problem/content/description/474/)
+
+二分+差分
+- [acwing: 503. 借教室](https://www.acwing.com/problem/content/description/505/)
+1. LIS 问题可以通过： 贪心+二分 优化 动态规划的解法，并引申出一系列题目，后面再讲
