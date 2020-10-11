@@ -7,3 +7,7 @@
 - 1.3.2 快速排序, 快速选择与应用 [视频地址](https://www.bilibili.com/video/BV1Pf4y1Q7XP/) [课件地址](./lesson-4.md)
 - 1.4.1 二分法经典应用(一) [视频地址](https://www.bilibili.com/video/BV1154y117FS/) [课件地址](./lesson-5.md)
 - 1.4.2 二分法经典应用(二) [视频地址](https://www.bilibili.com/video/BV1gK411N7ue/) [课件地址](./lesson-5.md)
+
+
+![](./images/wechat.png)
+![](./images/bilibili.png)
