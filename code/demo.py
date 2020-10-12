@@ -1,32 +1,35 @@
-def quicksort(l, r):
-    if l >= r: return
+import math
+import sys
+input = sys.stdin.readline
+
+def check(x):
+    s = [0] * (n+1)
+    minV = [0] * (n+1)
+    for i in range(1, n+1):
+        s[i] = s[i-1] + a[i] - x
+        minV[i] = min(minV[i-1], s[i])
     
-    mid = (l + r) //2
-    a[l], a[mid] = a[mid], a[l]
+    for i in range(m, n+1):
+        if s[i] - minV[i-m] >= -1e-8:
+            return True
     
-    i = l
-    j = r + 1
-    
-    while i < j:
-        while True:
-            i += 1
-            if i <= r or a[i] >= a[l]: break
-        while True:
-            j -= 1
-            if a[j] <= a[l]: break
-        
-        if i < j: a[i], a[j] = a[j], a[i]
-        else: break
-    print(j)
-    a[l], a[j] = a[j], a[l]
-    quicksort(l, j-1)
-    quicksort(j+1, r)
-    
-    
+    return False
+
+
 if __name__ == "__main__":
-    n = int(input())
-    a = list(map(int, input().split()))
+    n, m = map(int, input().split())
+    a = [0] * (n+1)
+
+    l = 0
+    r = 0
+    for i in range(1, n+1):
+        a[i] = int(input())
+        r = max(r, a[i])
+
+    while r - l >= 1e-8:
+        mid = (r+l) / 2
+
+        if check(mid): l = mid
+        else: r = mid
     
-    quicksort(0, len(a)-1)
-    
-    for x in a: print("%d "%x, end="")
+    print(math.floor(r*1000))
